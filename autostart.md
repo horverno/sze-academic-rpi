@@ -3,6 +3,8 @@
 
 Több módja is van, hogy hogyan indítsunk python scriptet induláskor, azonban bármilyen ilyen jellegű művelet kifejezetten **veszélyes**, így előtte mindenképp készítsünk biztonsági mentést.
 
+## /etc/profile
+
 Az egyik ilyen mód az `/etc/profile` fájl szerkesztése. Szöveget például a `nano` (terminálban működő, majdnem minden linux distron létező egyszerű szövegszerkesztő), a `leafpad` (a Raspbian default szövegszerkesztője) vagy `pluma` (a `gedit`-hez hasnoló, Ubuntu Mate default szövegszerkesztője) segítségével szerkeszthetünk.
 
 ```python
@@ -28,6 +30,10 @@ sudo python3 /home/pi/futtatni.py &
 ```
 **Fontos**: a parancs végén szerepeltessük `&`-t, így a háttérben indul a scriptünk, és ha például végtelen ciklusba kerülne, akkor nem akadályozza az indulást. Több package használata **nem ajánlott**, mint pl. a `pygame`, a `matplotlib` vagy a `pyqt` vagy bármely GUI-t használó csomag.
 
-## Hibaelhárítás 
-## _Troubleshoot_
+#### Hibaelhárítás 
+#### _Troubleshoot_
 Másik linuxos gépen mountoljuk fel a Raspberry Pi SD kártyáját, így módosíthatjuk a fájlokat, pl. kikommentlehetjük a `futtatni.py` teljes tartalmát.
+
+## /etc/crontab
+
+A cron alkalmazások szerepe, hogy végrehajtsa a számára meghatározott programokat, feladatokat megadott időközönként. Az alapértelmezett konfigurációs fájlja az `/etc/crontab`.

@@ -4,19 +4,20 @@ Ez a rövid leírás git és GitHub segédleteket tartalmaz, leginkább a félé
 ## A *féléves* feladatnál pozitív hatást kelt:
 - :+1: Jól követhető magyar és akár angol nyelvű dokumentáció is.
 - :+1: Alap információk a `README.md`-ben, dokumentáció a `/wiki`-ben.
-- :+1: Issue-k
-- :+1: Branch-ek
-- :+1: Gitignore
-- :+1: Licensz
-- :+1: Repository topic-ok, köztük a tárgykód és a SZE
+- :+1: Issue-k.
+- :+1: Branch-ek.
+- :+1: Gitignore.
+- :+1: Licensz.
+- :+1: Repository topic-ok, köztük a tárgykód és a SZE.
 
 ## *Komoly hibák*, ami miatt a *féléves* akár több érdemjeggyel is rosszabb  lehet:
 - :rage: Tömörített állomány a GitHub repositoryban (pl. `zip` és még rosszabb, ha `rar`). Kivétel lehet, ha direkt tömörített állománykezelés a cél, de forráskód, kép, stb. soha ne kerüljön így fel. 
-- :rage: Csapatban csak egy hallgató commitol.
+- :rage: Csapatban csak egy hallgató commitol. (Ez nyilván nem vonatkozis egyfős feladatokra).
 - :rage: Kevés commit (~10 alatt). Azért lenne fontos a megfelelő számú commit, mert ebből tudjuk, megítélni, hogyan haladt előre a munkafolyamat, ki, mit és mikor dolgozott.
 - :rage: Nincs wiki oldal.
 - :rage: A dokumentáció pdf / docx-ként feltöltve a `/wiki` helyett.
 - :rage: File upload commit helyett.
+- :rage: Forráskód kiképmetszőzve markdown szintaxis kiemelés helyett. (Mivel képként nem másolható, kereshető, stb a kód.)
 
 ## Féléves feladat kezelése GitHub-on - Linux alatt
 *Opcionális*: Kezdő Linux- (ebben a leírásban értsd Raspbian, Ubuntu, Ubuntu Mate) felhasználóknak ajánlott az alapvető terminál-kezelést bemutató gyakorlat: [linuxtut.md](linuxtut.md) végigvitele.
@@ -47,7 +48,7 @@ Klónozzuk a github-on létrehozott repository-t:
 $ git clone https://github.com/marika2002/rpi-tavolsagmero.git
 ```
 
-Nyissuk meg a `README.md` fájlt (pl. `code README.md`), majd írjunk 2 mondatot a projektünkről, illesszünk be táblázatot / linket / kiemeléseket vagy egyéb formázást.
+Nyissuk meg a `README.md` fájlt (pl. `code README.md`), majd írjunk 2 mondatot a projektünkről, illesszünk be táblázatot / linket / kódot, szintaxis kiemeléssel vagy egyéb formázást: [pl](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 Készítsünk egy `src` mappát, hozzuk létre a `hello.py` fájlt, írjunk bele rövid python kódot.
 
@@ -90,7 +91,7 @@ Hogy ne csak lokálisan legyen commitolva, pusholjuk is a változtatást:
 $ git push origin master
 ```
 
-Ezután írjuk be a felhasználónév, jelszó pársot, majd ellenőrizzük a GitHub weboldalán, mi történt.
+Ezután írjuk be a felhasználónév, jelszó párost, majd ellenőrizzük a GitHub weboldalán, mi történt.
 
 ## Féléves feladat kezelése GitHub-on - Windows alatt
 Windowson van GUI felület is:

@@ -1,5 +1,8 @@
 # Git tutorial
-Ez a rövid leírás git és GitHub segédleteket tartalmaz, leginkább a féléves feldatokra vonatkozólag. (leginkább GKLB_INTM038 - Gépi látás, GKLB_INTM020 - Mikroelektromechanikai rendszerek, NGB_IN040_1 - Szimulációs technikák, NGB_IN039_1 - Tudományos szoftverek tárgyakból)
+Ez a rövid leírás git és GitHub segédleteket tartalmaz, leginkább a féléves feldatokra vonatkozólag. (leginkább GKLB_INTM038 - Gépi látás, GKLB_INTM020 - Mikroelektromechanikai rendszerek, NGB_IN040_1 - Szimulációs technikák, NGB_IN039_1 - Tudományos szoftverek tárgyakból). 
+Éremes lehet átnézni a következő forrásokat is:
+- [Git és GitHub](https://docs.google.com/presentation/d/e/2PACX-1vTOonWzKo2PeriFardAwNUnkui6aoQZ0PISZtTPSwuySbjWCSXxlYTdqGH9qqPii6WBGHk__wjbECvS/pub?start=false&loop=false&delayms=3000) - online google prezentáció magyarul
+- [Verziókezelés Git és Svn segítségével](https://drive.google.com/file/d/1W-k79H_ccaByDzJhiGij5x25in8Fiyso/view?usp=sharing)  - részletes leírás magyarul
 
 ## A *féléves* feladatnál pozitív hatást kelt:
 - :+1: Jól követhető magyar és akár angol nyelvű dokumentáció is.

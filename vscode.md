@@ -16,7 +16,7 @@ Hibafelderítés, debuggolás, különböző nyelveken, Debug Console parancs: `
 
 ## Több sor / oszlop kijelölése
 `Ctrl+Shift+Fel/le` - oszlop kijelölése vagy `Alt` + kattintás.
-
+és
 ![git](img/vsmultiline.png)
 
 ## Csv
@@ -36,6 +36,16 @@ Szintax kiemelő Catkin / Cmake fájlokhoz.
 [erről több](https://marketplace.visualstudio.com/items?itemName=twxs.cmake)
 ![cmake](img/vscmake.png)
 
+## Bracket Pair Colorizer 2
+Zárójeleket színező extension. Azért a 2-es ajánlott, mert gyorsabbra lett újraírva, mint az 1-es viszont sajnos visszafelé nem kompatibilis.
+![](img/brackets02.png)
+## Git Graph
+Az extension git branch-ek grafikus megjeleítésre és további git funkciókra szolgál.
+![](img/gitgraph01.png)
+
+## GitHub Pull Requests
+Az extensionnel nem kell böngészőből megnyitni egy GitHub pull requestet, hanem mindent kényelmesen intézhetünk a VS code-ból.
+![](img/githubpullreq01.png)
 
 ## Shortcut reference
 - VS Code gyorsbillenytűk Linux-hoz:  [link](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
